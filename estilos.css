@@ -1,0 +1,58 @@
+p{
+ color: rgb(126, 126, 126);
+}
+
+table { 
+text-align: center; 
+}
+
+th { 
+padding: 8px; 
+background: #34536f; 
+border-top: 5px solid #9eb5f5;
+border-bottom: 1px solid #fff; 
+color: #fff; 
+}
+
+td { 
+padding: 8px; 
+background: #5c5d62;
+border-bottom: 1px solid #fff; 
+color: #fff; 
+border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+background: #9e9fa1; 
+color: #fff; 
+}
+
+.editar {
+color: #ca6b11; 
+cursor:pointer;
+}
+
+#tabladatos {
+margin-left: 45px; 
+font-size:12px;
+}
+
+.bien {
+	color: #000000;
+    opacity: 1;
+}
+
+.mal {
+	color: #000000;
+	opacity: 1;
+}
+
+.seleccion {
+    background: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.opciones {
+    background: #515153;
+    color: rgb(0, 0, 0);
+}
