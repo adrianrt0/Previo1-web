@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tablacalorias</title>
+    <link rel="stylesheet" href="estilos.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<h3 class="text-center">Tabla de calorias</h3>
+<div class="d-flex justify-content-center">
+<div class="card shadow-sm" style="width: 40rem;">
+<div class="card-body">
+<table>
+    <tr> 
+    <th>Alimento</th>
+    <th>Calorías (kCal)</th> 
+    <th>Grasas (g)</th>
+    <th>Proteina (g)</th> 
+    <th>Carbohidratos (g)</th>
+    <th>ok</th>
+    <th>Opciones</th>
+    </tr>
+    <tr> 
+    <td>Arandano</td>
+    <td>49</td> 
+    <td>0.2</td>
+    <td>0.4</td>
+    <td>12.7</td> 
+    <td><i class="bien fas fa-grin-alt"></i></td> 
+    <td><span class="editar" onclick="HacerEditable(this)">Editar</span></td>
+    </tr>
+    <tr> 
+    <td>Platano</td> 
+    <td>90</td>
+    <td>0.3</td>
+    <td>1.0</td> 
+    <td>23.5</td> 
+    <td><i class="mal fas fa-dizzy"></i></td>
+    <td><span class="editar" onclick="HacerEditable(this)">Editar</span></td>
+    </tr>
+    <tr> 
+    <td>Cereza</td> 
+    <td>46</td> 
+    <td>0.4</td>
+    <td>0.9</td> 
+    <td>10.9</td> 
+    <td><i class="mal fas fa-dizzy"></i></td>
+    <td><span class="editar" onclick="HacerEditable(this)">Editar</span></td>
+    </tr>
+    <tr> 
+    <td>Fresa</td> 
+    <td>37</td> 
+    <td>0.5</td>
+    <td>0.8</td> 
+    <td>8.3</td> 
+    <td><i class="bien fas fa-grin-alt"></i></td> 
+    <td><span class="editar" onclick="HacerEditable(this)">Editar</span></td>
+    </tr>
+    </table>
+    <p>Contenido nutricional por cada 100 g de alimento</p>
+    <div id="tabladatos"></div>
+</div>
+</div>
+</div>
+</body> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>   
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
